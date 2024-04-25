@@ -1,0 +1,15 @@
+close all;
+clear;
+clc;
+x=[0:1:4];
+y=[1 2 1 2 1];
+subplot(2,1,1);
+stem(x,y);
+grid on;
+hold on;
+subplot(2,1,2);
+yy=[y y y];
+l=length(yy);
+xx=[0:l-1];
+stem(xx,yy);
+grid on;

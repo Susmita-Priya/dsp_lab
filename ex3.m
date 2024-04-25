@@ -1,0 +1,10 @@
+clear;
+close all;
+clc;
+t=[-5:0.1:5];
+x=2*sin((2*pi*t)-(pi/2));
+plot(t,x);
+grid on;
+ylabel('x(t)');
+xlabel('time(sec)');
+title('figure 2.1');
